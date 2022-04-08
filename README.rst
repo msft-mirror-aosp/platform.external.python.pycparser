@@ -1,15 +1,9 @@
 ===============
-pycparser v2.20
+pycparser v2.19
 ===============
 
+:Author: `Eli Bendersky <https://eli.thegreenplace.net/>`_
 
-.. image:: https://travis-ci.org/eliben/pycparser.png?branch=master
-  :align: center
-  :target: https://travis-ci.org/eliben/pycparser
-
-.. image:: https://ci.appveyor.com/api/projects/status/wrup68o5y8nuk1i9?svg=true
-  :align: center
-  :target: https://ci.appveyor.com/project/eliben/pycparser/
 
 .. contents::
     :backlinks: none
@@ -167,9 +161,6 @@ See `this blog post
 <https://eli.thegreenplace.net/2015/on-parsing-c-type-declarations-and-fake-headers>`_
 for more details.
 
-Note that the fake headers are not included in the ``pip`` package nor installed
-via ``setup.py`` (`#224 <https://github.com/eliben/pycparser/issues/224>`_).
-
 Basic usage
 -----------
 
@@ -249,3 +240,18 @@ updating this list because Github does a much better job at tracking
 contributions.
 
 
+CI Status
+=========
+
+**pycparser** has automatic testing enabled through the convenient
+`Travis CI project <https://travis-ci.org>`_. Here is the latest build status:
+
+.. image:: https://travis-ci.org/eliben/pycparser.png?branch=master
+  :align: center
+  :target: https://travis-ci.org/eliben/pycparser
+
+AppVeyor also helps run tests on Windows:
+
+.. image:: https://ci.appveyor.com/api/projects/status/wrup68o5y8nuk1i9?svg=true
+  :align: center
+  :target: https://ci.appveyor.com/project/eliben/pycparser/
